@@ -15,12 +15,5 @@ The objective of this project is to analyze and predict the quality of wine base
 
 **Data Visualization:** Using Seaborn and Matplotlib for visualizing patterns and insights in the dataset.
 
-## Key Insights
-
-- Citric acid, alcohol, and volatile acidity are among the most influential features affecting wine quality.
-- Higher alcohol content generally correlates with higher quality ratings.
-- Wines with high volatile acidity tend to have lower quality scores.
-- Machine learning models like Random Forest and Logistic Regression performed well in predicting wine quality, with Random Forest providing higher accuracy.
-
 
 
