@@ -22,22 +22,5 @@ The objective of this project is to analyze and predict the quality of wine base
 - Wines with high volatile acidity tend to have lower quality scores.
 - Machine learning models like Random Forest and Logistic Regression performed well in predicting wine quality, with Random Forest providing higher accuracy.
 
-## Data Cleaning Process in Python
-# 1. Import Required Libraries
-import pandas as pd
-import numpy as np
-
-# 2. Load the Dataset
-df = pd.read_csv("WineQT.CSV")
-
-# 3. Inspect the Dataset
-df.head()             # View first five rows
-df.describe()         # Summary statistics
-
-# 4. Check for Missing Values
-df.isnull().sum()
-
-# 6. Remove Duplicate Records
-df.drop_duplicates(inplace=True)
 
 
